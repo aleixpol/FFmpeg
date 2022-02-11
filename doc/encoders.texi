@@ -1622,7 +1622,7 @@ number of tiles required by the size of the input video (this is 1x1
 Set the number of tiles as log2 of the number of tile rows and columns.
 Provided for compatibility with libvpx/VP9.
 
-@item row-mt (Requires libaom >= 1.0.0-759-g90a15f4f2)
+@item row-mt (@emph{boolean}, Requires libaom >= 1.0.0-759-g90a15f4f2)
 Enable row based multi-threading. Disabled by default.
 
 @item enable-cdef (@emph{boolean})
